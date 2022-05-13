@@ -60,7 +60,7 @@
 //! [least_squares]: least_squares/trait.LeastSquaresSvdDivideConquer_.html#tymethod.least_squares
 
 #[cfg(any(feature = "intel-mkl-system", feature = "intel-mkl-static"))]
-extern crate intel_mkl_src as _src;
+extern crate mkl_src as _src;
 
 #[cfg(any(feature = "openblas-system", feature = "openblas-static"))]
 extern crate openblas_src as _src;
